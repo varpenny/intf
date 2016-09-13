@@ -16,3 +16,14 @@
 
 `callback`　支持回调函数
 
+(2) **随机数类**
+
+生成指定范围内的不重复的随机数，[详情>>](https://intf-varpenny.herokuapp.com/nums?start=10&end=100&total=5&callback=showData)
+
+`start`　起始值*（默认：0）*
+
+`end`　结束值*（默认：0）*
+
+`total`　总数*（默认：0）*
+
+`callback`　支持回调函数

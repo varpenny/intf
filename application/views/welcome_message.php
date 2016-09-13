@@ -32,10 +32,24 @@ i{color:#999;}
                 <li>total　数据总数<i>（默认：5000）</i></li>
                 <li>callback　支持回调函数</li>
             </ul>
+            <p>
+                <img src="<?php echo base_url('images/pic1.png') ?>" alt="" width="680" height="579" />
+            </p>
+        </dd>
+        <dt>随机数类</dt>
+        <dd>
+            <p>生成指定范围内的不重复的随机数，<a href="nums?start=10&end=100&total=5&callback=showData" target="_blank">详情&gt;&gt;</a></p>
+            <ul>
+                <li>start　起始值<i>（默认：0）</i></li>
+                <li>end　结束值<i>（默认：0）</i></li>
+                <li>total　总数<i>（默认：0）</i></li>
+                <li>callback　支持回调函数</li>
+            </ul>
+            <p>
+                <img src="<?php echo base_url('images/pic2.png') ?>" alt="" width="200" height="290" />
+            </p>
         </dd>
     </dl>
 </div>
-
-
 </body>
 </html>

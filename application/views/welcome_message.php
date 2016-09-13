@@ -24,7 +24,7 @@ i{color:#999;}
     <dl>
         <dt>图片类</dt>
         <dd>
-            <p>根据参数出指定尺寸的图片分页数据，<a href="gallery?picSize=400x300&pageNo=2&pageSize=5&total=300&callback=showData" target="_blank">详情&gt;&gt;</a></p>
+            <p>根据参数出指定尺寸的图片分页数据，<a href="<?php echo base_url('gallery?picSize=400x300&pageNo=2&pageSize=5&total=300&callback=showData') ?>" target="_blank">详情&gt;&gt;</a></p>
             <ul>
                 <li>picSize　图片尺寸<i>（默认：800x600）</i></li>
                 <li>pageNo　加载的页码<i>（默认：1）</i></li>
@@ -38,7 +38,7 @@ i{color:#999;}
         </dd>
         <dt>随机数类</dt>
         <dd>
-            <p>生成指定范围内的不重复的随机数，<a href="nums?start=10&end=100&total=5&callback=showData" target="_blank">详情&gt;&gt;</a></p>
+            <p>生成指定范围内的不重复的随机数，<a href="<?php echo base_url('nums?start=10&end=100&total=5&callback=showData') ?>" target="_blank">详情&gt;&gt;</a></p>
             <ul>
                 <li>start　起始值<i>（默认：0）</i></li>
                 <li>end　结束值<i>（默认：0）</i></li>
